@@ -26,6 +26,6 @@ class TestStrToBool(unittest.TestCase):
     def test_invalid_input(self):
         with self.assertRaises(AttributeError):
             str_to_bool(1)
-
+            
 if __name__ == '__main__':
     unittest.main()
