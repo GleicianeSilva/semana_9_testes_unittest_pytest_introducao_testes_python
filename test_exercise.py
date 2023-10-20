@@ -1,3 +1,5 @@
+import unittest
+
 def str_to_bool(value):
     try:
         value = value.lower()
@@ -10,8 +12,6 @@ def str_to_bool(value):
         return True
     if value in false_values:
         return False
-
-import unittest
 
 class TestStrToBool(unittest.TestCase):
 
